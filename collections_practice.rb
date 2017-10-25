@@ -42,3 +42,12 @@ def reverse_array(arr)
   array.reverse
 end
 
+def kesha_maker(arr)
+  coll = []
+  arr.each{|e| 
+    strArr = e.split('')
+    strArr[2] = "$"
+    coll << strArr.join('')
+  }
+  return coll
+end
