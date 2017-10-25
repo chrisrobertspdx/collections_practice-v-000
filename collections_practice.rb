@@ -78,5 +78,6 @@ def add_s(arr)
   arr.each_with_index.collect{|val,index|
     if index != 1
       val + "s"
+    end
   }
 end
