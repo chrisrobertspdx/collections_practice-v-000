@@ -70,7 +70,7 @@ def sum_array_inject(arr)
   arr.inject{|sum,e|
     sum + e
   }
-end  
+end
 
 def add_s(arr)
   arr.each_with_index.collect{|val,index|
