@@ -77,4 +77,4 @@ def add_s(arr)
     if index != 1
       val + "s"
   }
-
+end
