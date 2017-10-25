@@ -58,5 +58,11 @@ def find_a(arr)
   }
 end
 
-
+def sum_array(arr)
+  sum = 0
+  arr.each{|e|
+    sum += e
+  }
+  sum
+end
   
