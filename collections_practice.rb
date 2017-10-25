@@ -44,10 +44,19 @@ end
 
 def kesha_maker(arr)
   coll = []
-  arr.each{|e| 
+  arr.each{|e|
     strArr = e.split('')
     strArr[2] = "$"
     coll << strArr.join('')
   }
   return coll
 end
+
+def find_a(arr)
+  arr.select{|e|
+    e.starts_with?("a")
+  }
+end
+
+
+  
