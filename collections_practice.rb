@@ -65,4 +65,9 @@ def sum_array(arr)
   }
   sum
 end
-  
+
+def sum_array(arr)
+  arr.inject{|sum,e|
+    sum + e
+  }
+end  
