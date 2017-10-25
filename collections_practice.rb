@@ -35,7 +35,7 @@ end
 
 def swap_elements_from_to(arr,a,b)
   swap = arr[b]
-  arr[b] = array[a]
+  arr[b] = arr[a]
   arr[a] = swap
   arr
 end
@@ -78,7 +78,7 @@ def add_s(arr)
   arr.each_with_index.collect{|val,index|
     if index != 1
       val + "s"
-    else
+    else 
       val
     end
   }
