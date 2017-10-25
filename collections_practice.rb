@@ -23,3 +23,10 @@ def sort_array_char_count(arr)
       0
   }
 end
+
+def swap_elements(arr)
+  third = arr[2]
+  arr[2] = arr[1]
+  arr[1] = third
+  arr
+end
