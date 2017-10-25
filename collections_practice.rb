@@ -10,6 +10,7 @@ def sort_array_desc(arr)
       -1
     else
       0
+    end
   }
 end
 
@@ -21,6 +22,7 @@ def sort_array_char_count(arr)
       -1
     else
       0
+    end
   }
 end
 
