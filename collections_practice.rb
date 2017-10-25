@@ -56,7 +56,7 @@ end
 
 def find_a(arr)
   arr.select{|e|
-    e.starts_with?("a")
+    e.start_with?("a")
   }
 end
 
